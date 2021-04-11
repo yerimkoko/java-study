@@ -3,7 +3,7 @@
 ## 문제사항
 
 ```java
-int arr[]=new int[100];
+int[] arr = new int[100];
 ```
 
 기존의 배열은 초기에 생성할때 다음과 같이 초기에 100개를 할당해주어야하는 문제가 있음. 크기를 동적으로 할당해주고 싶을때 어떻게 해야할까?
@@ -11,10 +11,11 @@ int arr[]=new int[100];
 ## 과제 1
 
 ### 기존의 스택 (ch2)을 Client(Main클래스) 변경 없이 Stack 내부의 로직을 변경하기.
+(단, 컬렉션 프레임워크에서 제공하는 Stack 사용하지 않고!! 크크...)
 
 ```java
 public static void main(String[]args){
-	Stack<Integer> stack=new Stack(10);
+	Stack<Integer> stack = new Stack(10);
 	stack.push(100);
 	stack.push(200);
 	stack.push(300);
@@ -23,7 +24,7 @@ public static void main(String[]args){
 		sout(stack.pop());
 	}
 
-	Stack<String> stack2=new Stack(10);
+	Stack<String> stack2 = new Stack(10);
 	stack2.push("고예리임");
 	stack2.push("강승호오");
 	stack2.push("지짜");
@@ -38,6 +39,7 @@ public static void main(String[]args){
 
 - 컬렉션 프레임워크
 - 배열의 단점
+- ArrayList vs LinkedList 비교하기 (ex) 조회 시 시간 복잡도 등)
 
 ---
 
@@ -54,7 +56,7 @@ public static void main(String[]args){
 ```java
 
 public static void main(String[]args){
-	Stack<Integer> arrayStack=new ArrayStack();
+	Stack<Integer> arrayStack = new ArrayStack();
 	arrayStack.push(100);
 	arrayStack.push(200);
 
@@ -62,7 +64,7 @@ public static void main(String[]args){
 		sout(arrayStack.pop());
 	}
 
-	Stack<Integer> listStack=new ListStack();
+	Stack<Integer> listStack = new ListStack();
 	listStack.push(100);
 	listStack.push(200);
 
