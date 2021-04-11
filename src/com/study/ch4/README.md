@@ -26,3 +26,4 @@ public static void main(String[] args) {
 
 - Exception이란?
 - 일반 예외 vs 런타임 예외란?
+- 예외 처리 방법

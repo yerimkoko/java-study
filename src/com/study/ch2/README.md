@@ -35,3 +35,5 @@ public static void main(String[] args) {
 ## 필요한 개념
 
 - 제네릭
+- 기본 타입 vs Wrapper 타입
+- 오토 박싱, 오토 언박싱

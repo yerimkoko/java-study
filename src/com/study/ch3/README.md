@@ -38,8 +38,8 @@ public static void main(String[]args){
 ## 필요한 개념(과제1)
 
 - 컬렉션 프레임워크
-- 배열의 단점
-- ArrayList vs LinkedList 비교하기 (ex) 조회 시 시간 복잡도 등)
+- 배열의 단점 (배열을 잘 사용하지 않는 이유)
+- List 인터페이스 구현체 중 ArrayList vs LinkedList 비교하기 (ex) 조회 시 시간 복잡도 등)
 
 ---
 
