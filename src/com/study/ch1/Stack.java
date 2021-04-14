@@ -23,4 +23,8 @@ public class Stack {
         return arr[--top];
     }
 
+    public boolean isEmpty() {
+        return top == 0;
+    }
+
 }

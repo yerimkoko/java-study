@@ -7,9 +7,10 @@ public class Application {
 		stack.push(10);
 		stack.push(20);
 		stack.push(30);
-		System.out.println(stack.pop());
-		System.out.println(stack.pop());
-		System.out.println(stack.pop());
+
+		while (!stack.isEmpty()) {
+			System.out.println(stack.pop());
+		}
 	}
 
 }
