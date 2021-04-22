@@ -1,9 +1,5 @@
 package com.study.ch2;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.List;
-
 public class Stack<T> {
 
     private int size;
@@ -27,6 +23,5 @@ public class Stack<T> {
     public boolean isEmpty() {
         return top == 0;
     }
-
 
 }
