@@ -15,7 +15,7 @@ int[] arr = new int[100];
 
 ```java
 public static void main(String[]args){
-	ListStack<Integer> stack = new ListStack();
+	Stack<Integer> stack = new Stack();
 	// 내부적으로 배열이 아니라 List를 사용하는 스택 (기능은 기존과 동일)
 	stack.push(100);
 	stack.push(200);
@@ -25,7 +25,7 @@ public static void main(String[]args){
 		sout(stack.pop());
 	}
 
-	ListStack<String> stack2 = new ListStack();
+	Stack<String> stack2 = new Stack();
 	stack2.push("고예리임");
 	stack2.push("강승호오");
 	stack2.push("지짜");
