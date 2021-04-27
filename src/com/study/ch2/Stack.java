@@ -19,7 +19,6 @@ public class Stack<T> {
     public void push(T data) {
         this.arr[top++] = data;
     }
-
     public T pop() {
         return arr[--top];
     }
