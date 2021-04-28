@@ -1,6 +1,5 @@
 package com.study.ch5;
 
-import java.lang.reflect.Array;
 
 public class ArrayQueue<T> implements Queue<T>{
     private int size;
